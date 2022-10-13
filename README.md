@@ -1,6 +1,6 @@
 # 2022interaction
 2022 互動技術
-Week1
+##Week1
 變成小畫家，可以用滑鼠畫畫
 void setup(){
 
@@ -15,6 +15,7 @@ void draw(){
    line(mouseX,mouseY,pmouseX,pmouseY);
 
  }
+ ```c
  小畫家筆的顏色能夠透過鍵盤換色
 void setup(){
 
@@ -25,7 +26,7 @@ background(#F0950C);
 stroke(255,0,0);
 
 }
-
+```c
 void draw(){
 
  if(mousePressed){
@@ -35,7 +36,7 @@ void draw(){
  }
 
 }
-
+```c
 void keyPressed(){
 
  if(key=='1')stroke(#FA0834);
@@ -45,4 +46,4 @@ void keyPressed(){
  if(key=='3')stroke(#FAFA08);
 
 }
-
+```
